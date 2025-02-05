@@ -1,0 +1,144 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "role": "admin",
+      "username": "admin",
+      "password": "password",
+      "permissions": [
+        "add_user",
+        "remove_user",
+        "manage_permissions",
+        "map_teachers"
+      ]
+    },
+    {
+      "id": 2,
+      "role": "teacher",
+      "username": "teacher1",
+      "password": "password",
+      "name": "John Doe",
+      "permissions": [
+        "upload_recordings",
+        "manage_enrollment"
+      ]
+    },
+    {
+      "id": 4,
+      "role": "teacher",
+      "username": "teacher4",
+      "password": "password",
+      "name": "Alice Smith",
+      "permissions": [
+        "upload_recordings",
+        "manage_enrollment",
+        "create_quizzes",
+        "access_reports"
+      ]
+    },
+    {
+      "id": 5,
+      "role": "student",
+      "username": "student4",
+      "password": "password",
+      "name": "John Doe",
+      "permissions": [
+        "enroll_classes",
+        "view_assessments",
+        "messaging"
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to AI",
+      "description": "A comprehensive introduction to artificial intelligence.",
+      "teacherId": 2
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "name": "Assignment 1",
+      "description": "Solve the following problems.",
+      "courseId": 1
+    }
+  ],
+  "classEnrollments": [
+    {
+      "studentId": 3,
+      "courseId": 1
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "title": "AI Basics Quiz",
+      "questions": [
+        {
+          "text": "What does AI stand for?",
+          "options": [
+            "Artificial Intelligence",
+            "Automated Information",
+            "Advanced Integration",
+            "Applied Innovation"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "text": "Which of the following is NOT a type of AI?",
+          "options": [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Reinforcement Learning",
+            "Descriptive Learning"
+          ],
+          "correctAnswer": 3
+        }
+      ]
+    }
+  ],
+  "studentAssignments": [
+    {
+      "studentId": 3,
+      "assignmentId": 1,
+      "score": 85
+    }
+  ],
+  "studentQuizResults": [
+    {
+      "studentId": 3,
+      "quizId": 1,
+      "score": 75,
+      "answers": [
+        0,
+        2
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "senderId": 3,
+      "receiverId": 2,
+      "text": "Hello Teacher!",
+      "timestamp": "2025-02-05T22:46:10.281Z",
+      "isAnnouncement": false,
+      "messageType": "student"
+    },
+    {
+      "id": 2,
+      "senderId": 2,
+      "receiverId": 3,
+      "text": "Hello Student!",
+      "timestamp": "2025-02-05T22:47:54.447Z",
+      "isAnnouncement": true,
+      "messageType": "teacher"
+    }
+  ],
+  "studyMaterials": [],
+  "calendarEntries": [],
+  "teacherCourses": []
+}
