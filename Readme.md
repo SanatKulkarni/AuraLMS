@@ -23,24 +23,6 @@ This README outlines the core features, usage, and technologies powering the Aur
 *   **User-Friendly Interface:** Designed with clarity in mind, featuring an easily navigable dashboard, intuitive controls, and a night mode for optimized viewing.
 *   **Messaging System:** Facilitate communication between students and teacher.
 
-## Screenshots
-
-### AI Mock Interview Platform
-
-![AuraLMS Mock Interview Dashboard](link_to_mock_interview_dashboard_screenshot)
-
-### Interactive Coding Module
-
-![AuraLMS Interactive Coding Module Screenshot](link_to_interactive_coding_module_screenshot)
-
-### Standard LMS Platform Features
-
-![AuraLMS Assignments Page Screenshot](link_to_standard_lms_assignments_page)
-
-### Student User Profile Management
-
-![AuraLMS Profile View](link_to_student_profile_management_screenshot)
-
 ## Technologies
 
 *   **Frontend:** React.js
